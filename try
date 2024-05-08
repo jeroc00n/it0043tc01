@@ -1,0 +1,104 @@
+<html lang="en">
+    <head>
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <center>
+        <form name = "Pokedex Form" action = "pokedex.php">
+            National Dex: <input type = "number" name = "National Dex"> <br> <br>
+            Generation 1<input type = "radio" id = "1" name = "gennum"> 
+            Generation 2<input type = "radio" id = "2" name = "gennum"> 
+            Generation 3<input type = "radio" id = "3" name = "gennum"> 
+            Generation 4<input type = "radio" id = "4" name = "gennum"> 
+            Generation 5<input type = "radio" id = "5" name = "gennum"> 
+            Generation 6<input type = "radio" id = "6" name = "gennum"> 
+            Generation 7<input type = "radio" id = "7" name = "gennum"> 
+            Generation 8<input type = "radio" id = "8" name = "gennum"> 
+            Generation 9<input type = "radio" id = "9" name = "gennum"> <br> <br>
+            Pokemon Name: <input type = "text" name = "Pokemon Name"> <br> <br>
+            Image:<input type = "file" name = "image"> <br> <br>
+            Type 1: <select>
+                <option value = "Normal">Normal</option>
+                <option value = "Fire">Fire</option>
+                <option value = "Water">Water</option>
+                <option value = "Electric">Electric</option>
+                <option value = "Grass">Grass</option>
+                <option value = "Ice">Ice</option>
+                <option value = "Fighting">Fighting</option>
+                <option value = "Poison">Poison</option>
+                <option value = "Ground">Ground</option>
+                <option value = "Flying">Flying</option>
+                <option value = "Psychic">Psychic</option>
+                <option value = "Bug">Bug</option>
+                <option value = "Rock">Rock</option>
+                <option value = "Ghost">Ghost</option>
+                <option value = "Dragon">Dragon</option>
+                <option value = "Dark">Dark</option>
+                <option value = "Steel">Steel</option>
+                <option value = "Fairy">Fairy</option>
+            </select>
+
+            Type 2: <select>
+                <option value = "Normal">Normal</option>
+                <option value = "Fire">Fire</option>
+                <option value = "Water">Water</option>
+                <option value = "Electric">Electric</option>
+                <option value = "Grass">Grass</option>
+                <option value = "Ice">Ice</option>
+                <option value = "Fighting">Fighting</option>
+                <option value = "Poison">Poison</option>
+                <option value = "Ground">Ground</option>
+                <option value = "Flying">Flying</option>
+                <option value = "Psychic">Psychic</option>
+                <option value = "Bug">Bug</option>
+                <option value = "Rock">Rock</option>
+                <option value = "Ghost">Ghost</option>
+                <option value = "Dragon">Dragon</option>
+                <option value = "Dark">Dark</option>
+                <option value = "Steel">Steel</option>
+                <option value = "Fairy">Fairy</option>
+            </select> <br> <br>
+
+            Evolves From: <input type = "text" name = "devolve">
+            Evolves To: <input type = "text" name = "evolve"> <br> <br>
+
+            Nickname: <input type = "text" name = "nickname"> <br> <br>
+
+            Birthday: <input type = "date" name = "bday"> <br> <br>
+            <input type = "submit">
+        </form>
+        
+    
+        <table border = "1" align = "center">
+            <tr align = "center">
+                <th>National Dex</th> <th>Generation</th><th>Pokemon Name</th><th>Image</th>
+                <th>Type 1</th><th>Type 2</th><th>Evolves From</th><th>Evolves To</th>
+                <th>Nickname</th><th>Birthday</th>
+            </tr>
+            <tr align = "center">
+                <td align = "center">094</td> 
+                <td>Generation 1</td>
+                <td>Gengar</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0bIdFrfcR2QS9_osWZqLXKR9jh25mDhqWzaUskgGxwg&s" alt="" srcset=""></td>
+                <td bgcolor = "#4d2c4d">Ghost</td><td bgcolor = "#a584ce">Poison</td>
+                <td>Haunter</td>
+                <td>-</td>
+                <td>Maximillian</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">094</td> 
+                <td>Generation 7</td>
+                <td>Mimikyu</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcVQ1JHac4f_jFxBeUpBmraOgXPoXZWpJDNk1LhZXOeg&s" alt="" srcset=""></td>
+                <td bgcolor = "#4d2c4d">Ghost</td><td bgcolor = "#ffc3d0">Fairy</td>
+                <td>Haunter</td>
+                <td>-</td>
+                <td>Maximillian</td>
+                <td>01-01-2024</td>
+            </tr>
+
+        </table>
+        </center>
+    </body>
+</html>

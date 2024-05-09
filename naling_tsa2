@@ -1,0 +1,197 @@
+<html lang="en">
+    <head>
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <center>
+        <form name = "Pokedex Form" action = "pokedex.php">
+            National Dex: <input type = "number" name = "National Dex"> <br> <br>
+            Generation 1<input type = "radio" id = "1" name = "gennum"> 
+            Generation 2<input type = "radio" id = "2" name = "gennum"> 
+            Generation 3<input type = "radio" id = "3" name = "gennum"> 
+            Generation 4<input type = "radio" id = "4" name = "gennum"> 
+            Generation 5<input type = "radio" id = "5" name = "gennum"> 
+            Generation 6<input type = "radio" id = "6" name = "gennum"> 
+            Generation 7<input type = "radio" id = "7" name = "gennum"> 
+            Generation 8<input type = "radio" id = "8" name = "gennum"> 
+            Generation 9<input type = "radio" id = "9" name = "gennum"> <br> <br>
+            Pokemon Name: <input type = "text" name = "Pokemon Name"> <br> <br>
+            Image:<input type = "file" name = "image"> <br> <br>
+            Type 1: <select name = "type1" id = "type1">
+                <option value = "Normal">Normal</option>
+                <option value = "Fire">Fire</option>
+                <option value = "Water">Water</option>
+                <option value = "Electric">Electric</option>
+                <option value = "Grass">Grass</option>
+                <option value = "Ice">Ice</option>
+                <option value = "Fighting">Fighting</option>
+                <option value = "Poison">Poison</option>
+                <option value = "Ground">Ground</option>
+                <option value = "Flying">Flying</option>
+                <option value = "Psychic">Psychic</option>
+                <option value = "Bug">Bug</option>
+                <option value = "Rock">Rock</option>
+                <option value = "Ghost">Ghost</option>
+                <option value = "Dragon">Dragon</option>
+                <option value = "Dark">Dark</option>
+                <option value = "Steel">Steel</option>
+                <option value = "Fairy">Fairy</option>
+            </select>
+
+            Type 2: <select name = "type2" id = "type2">
+                <option value = "Normal">Normal</option>
+                <option value = "Fire">Fire</option>
+                <option value = "Water">Water</option>
+                <option value = "Electric">Electric</option>
+                <option value = "Grass">Grass</option>
+                <option value = "Ice">Ice</option>
+                <option value = "Fighting">Fighting</option>
+                <option value = "Poison">Poison</option>
+                <option value = "Ground">Ground</option>
+                <option value = "Flying">Flying</option>
+                <option value = "Psychic">Psychic</option>
+                <option value = "Bug">Bug</option>
+                <option value = "Rock">Rock</option>
+                <option value = "Ghost">Ghost</option>
+                <option value = "Dragon">Dragon</option>
+                <option value = "Dark">Dark</option>
+                <option value = "Steel">Steel</option>
+                <option value = "Fairy">Fairy</option>
+            </select> <br> <br>
+
+            Evolves From: <input type = "text" name = "devolve">
+            Evolves To: <input type = "text" name = "evolve"> <br> <br>
+
+            Nickname: <input type = "text" name = "nickname"> <br> <br>
+
+            Birthday: <input type = "date" name = "bday"> <br> <br>
+            <input type = "submit">
+        </form>
+        
+        <table border = "1" align = "center">
+            <tr align = "center">
+                <th>National Dex</th> 
+                <th>Generation</th>
+                <th>Pokemon Name</th>
+                <th>Image</th>
+                <th>Type 1</th>
+                <th>Type 2</th>
+                <th>Evolves From</th>
+                <th>Evolves To</th>
+                <th>Nickname</th>
+                <th>Birthday</th>
+            </tr>
+            <tr align = "center">
+                <td align = "center">-1</td> 
+                <td>Generation 1</td>
+                <td>Jerome</td>
+                <td><img src="https://feu.instructure.com/images/thumbnails/20215640/7o9oTBtHkgJB4PK3XmutR7V2RIca6SQJ5pCr5dGl" width = "100" alt="" srcset=""></td>
+                <td bgcolor = "#4d2c4d"><font color = "white">Ghost</font></td><td bgcolor = "#a584ce"><font color = "white">Poison</font></td>
+                <td>Jero</td>
+                <td>Jeromius</td>
+                <td>JP</td>
+                <td>06-25-2004</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0094</td> 
+                <td>Generation 1</td>
+                <td>Gengar</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/4/47/0094Gengar.png/600px-0094Gengar.png" width = "100" alt="" srcset=""></td>
+                <td bgcolor = "#4d2c4d"><font color = "white">Ghost</font></td><td bgcolor = "#a584ce"><font color = "white">Poison</font></td>
+                <td>Haunter</td>
+                <td>-</td>
+                <td>Maximillian</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0078</td> 
+                <td>Generation 7</td>
+                <td>Mimikyu</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/4/41/0778Mimikyu.png/900px-0778Mimikyu.png" width = "100" alt="" srcset=""></td>
+                <td bgcolor = "#4d2c4d"><font color = "white">Ghost</font></td><td bgcolor = "#ffc3d0"><font color = "white">Fairy</font></td>
+                <td>-</td>
+                <td>-</td>
+                <td>Boo</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0487</td> 
+                <td>Generation 4</td>
+                <td>Giratina</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/8/81/0487Giratina.png/375px-0487Giratina.png" width = "100" alt="" srcset=""></td>
+                <td bgcolor = "#4d2c4d"><font color = "white">Ghost</font></td><td bgcolor = "#4aa5ce"><font color = "white">Dragon</font></td>
+                <td>-</td>
+                <td>-</td>
+                <td>Ted</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0937</td> 
+                <td>Generation 9</td>
+                <td>Ceruledge</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/f/f0/0937Ceruledge.png/375px-0937Ceruledge.png" width = "100" alt="" srcset=""></td>
+                <td bgcolor = "#ff0000"><font color = "white">Fire</font></td><td bgcolor = "#4d2c4d"><font color = "white">Ghost</font></td>
+                <td>Charcadet</td>
+                <td>-</td>
+                <td>Edge</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0354</td> 
+                <td>Generation 3</td>
+                <td>Banette</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/7/72/0354Banette.png/375px-0354Banette.png" width = "100" alt="" srcset=""></td>
+                <td colspan = "2" bgcolor = "#4d2c4d"><font color = "white">Ghost</font>
+                <td>Shuppet</td>
+                <td>-</td>
+                <td>Ted</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0355</td> 
+                <td>Generation 3</td>
+                <td>Duskull</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/f/f6/0355Duskull.png/375px-0355Duskull.png" width = "100" alt="" srcset=""></td>
+                <td colspan = "2" bgcolor = "#4d2c4d"><font color = "white">Ghost</font>
+                <td>-</td>
+                <td>Dusclops</td>
+                <td>Cadaver</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0897</td> 
+                <td>Generation 8</td>
+                <td>Spectrier</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/e/ef/0897Spectrier.png/375px-0897Spectrier.png" width = "100" alt="" srcset=""></td>
+                <td colspan = "2" bgcolor = "#4d2c4d"><font color = "white">Ghost</font>
+                <td>-</td>
+                <td>-</td>
+                <td>Skeletor</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0429</td> 
+                <td>Generation 4</td>
+                <td>Mismagius</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/a/a5/0429Mismagius.png/375px-0429Mismagius.png" width = "100" alt="" srcset=""></td>
+                <td colspan = "2" bgcolor = "#4d2c4d"><font color = "white">Ghost</font>
+                <td>Misdreavus</td>
+                <td>-</td>
+                <td>Gale</td>
+                <td>01-01-2024</td>
+            </tr>
+            <tr align = "center">
+                <td align = "center">0571</td> 
+                <td>Generation 5</td>
+                <td>Zoroark</td>
+                <td><img src="https://archives.bulbagarden.net/media/upload/thumb/5/52/0571Zoroark.png/375px-0571Zoroark.png" width = "100" alt="" srcset=""></td>
+                <td colspan = "2" bgcolor = "#524a4a"><font color = "white">Dark</font>
+                <td>Zorua</td>
+                <td>-</td>
+                <td>Nob</td>
+                <td>01-01-2024</td>
+            </tr>
+        </table>
+        </center>
+    </body>
+</html>

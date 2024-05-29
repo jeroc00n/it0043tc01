@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Indie+Flower&family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+body{
+    background-image: url(icons/bg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(icons/bg7.jpg);
+    background-size: 300px;
+    
+}
+
+.item{
+    height: 280px;
+    width: 280px;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+}
+
+.pokeball img{
+    width: 120px;
+    height: 120px;
+}
+.pokeball{
+    display: none;
+}
+
+.name{
+    text-align: center;
+    display: none;
+
+}
+
+.type, .type1, .type2{
+    display: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+.item-1{
+    background-color: #ffea61;
+}
+
+.item-2{
+    background-color: #FAC898;
+}
+
+.item-3{
+    background-color: #A7C7E7;
+}
+
+.item-4{
+    background-color: #c8e1cc;
+}
+
+.item-5{
+    background-color: #F8C8DC;
+}
+
+.item-6{
+    background-color: #f6af6d;
+}
+
+.item-7{
+    background-color: #8abff4
+}
+
+.item-8{
+    background-color: #a9d5b1;
+}
+
+.item-9{
+    background-color: #ffefcb;
+}
+
+.item-10{
+    background-color: #a7c5e3;
+}
+
+.item-11{
+    background-color: #fff192;
+}
+
+.item-12{
+    background-color: #e6e0d4;
+}
+
+@media (max-width: 1096px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+
+    .item{
+        height: 150px;
+        width: 770px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 30px;
+        transition-duration: 1s;
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 1px 1px 5px black;
+        width: 450px;
+        height: auto;
+        
+    }
+
+    .pokeball{
+        display: flex;
+        width: 200px;
+        justify-content: center;
+        transition-duration: 1s;
+        transition-property: transform;
+    }
+
+    .item img{
+        height: 210px;
+        width: 210px;
+        transform: .5 ease;
+        transition: .5 ease;
+    }
+
+    .pokeball img{
+        height: 70px;
+        width: 70px;
+    }
+    
+
+    .item:hover{
+        background-image: url(icons/hoverbg1.jpg);
+        background-size: cover;
+        background-color: #559419;
+        
+    }
+
+    .pokeball:hover{
+        transform: rotate(45deg);
+    }
+}
+
+@media (max-width: 800px){
+    .container{
+        transition: 1s;
+    }
+
+    .pokeball{
+        display: none;
+    }
+
+
+    .item{
+        height: auto;
+        width: 400px;
+        flex-direction: column;
+        transition: .5s ease;
+        transform: .5s ease;
+    }
+
+    .item img{
+        height: 300px;
+        width: 300px;
+        transition: .5s ease;
+        transform: .5s ease;
+    }
+
+    .type, .type1, .type2{
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+    }
+
+    .electric{
+        background-color: #f4dc36;
+    }
+
+    .fire{
+        background-color: #ff0000;
+    }
+
+    .grass{
+        background-color: #559419;
+    }
+
+    .poison{
+        background-color: #A33EA1;
+    }
+
+    .water{
+        background-color: #276cc7;
+    }
+
+    .normal{
+        background-color: #A8A77A;
+    }
+
+    .fighting{
+        background-color: #C22E28;
+    }
+
+    .psychic{
+        background-color: #F95587;
+    }
+
+    .ground{
+        background-color: #E2BF65;
+    }
+}

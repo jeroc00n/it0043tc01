@@ -90,5 +90,5 @@ function fullreset(){
 
     box1.style.flexGrow = '0';
     box2.style.flexGrow = '0';
-    box2.style.flexGrow = '0';
+    box3.style.flexGrow = '0';
 }

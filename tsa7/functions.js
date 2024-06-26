@@ -2,7 +2,7 @@ function gap(){
     let c = document.getElementById("gap").value;
     let g = document.getElementById("flex-cont");
     g.style.gap = `${c}px`;
-    console.log(`Gap: ${c.style.gap}`);
+    console.log(`Gap: ${g.style.gap}`);
 }
 
 function flxdirection(c){

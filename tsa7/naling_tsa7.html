@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-1">
+        <button class="btn btn-1" onclick="fullreset()">Reset Flexbox</button>
+        <input type="number" class="gapin" name="" id="gap">
+        <button class="btn btn-2" onclick="gap()">Gap</button>
+        <h3 class="flexdir">Flex Direction</h2>
+        <button class="btn btn-3" onclick="flxdirection(1)">Row</button>
+        <button class="btn btn-4" onclick="flxdirection(2)">Column</button>
+        <h3 class="justcont">Justify Content</h2>
+        <button class="btn btn-5" onclick="justifycont(1)">Start</button>
+        <button class="btn btn-6" onclick="justifycont(2)">Center</button>
+        <button class="btn btn-7" onclick="justifycont(3)">End</button>
+        <button class="btn btn-8" onclick="justifycont(4)">Space Between</button>
+        <button class="btn btn-9" onclick="justifycont(5)">Space Around</button>
+        <button class="btn btn-10" onclick="justifycont(6)">Space Evenly</button>
+        <h3 class="aliitm">Align Items</h2>
+        <button class="btn btn-11" onclick="alignitems(1)">Start</button>
+        <button class="btn btn-12" onclick="alignitems(2)">Center</button>
+        <button class="btn btn-13" onclick="alignitems(3)">End</button>
+        <h3 class="flexgrw">Flex Grow</h2>
+        <button class="btn btn-14" onclick="flexgrow(0)">Reset</button>
+        <button class="btn btn-15" onclick="flexgrow(4)">Grow All</button>
+        <input type="number" class="growin-1" name="" id="grow1">
+        <button class="btn btn-16" onclick="flexgrow(1)">Grow B-1</button>
+        <input type="number" class="growin-2" name="" id="grow2">
+        <button class="btn btn-17" onclick="flexgrow(2)">Grow B-2</button>
+        <input type="number" class="growin-3" name="" id="grow3">
+        <button class="btn btn-18" onclick="flexgrow(3)">Grow B-3</button>
+    </div>
+
+    <div class="container-2" id="flex-cont">
+        <h1 class="box box-1" id="box1">1</h1>
+        <h1 class="box box-2" id="box2">2</h1>
+        <h1 class="box box-3" id="box3">3</h1>
+    </div>
+
+    <script src="functions.js"></script>
+    
+</body>
+</html>
